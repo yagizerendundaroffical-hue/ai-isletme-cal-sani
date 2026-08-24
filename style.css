@@ -1,0 +1,44 @@
+/* Sayfanın genel arka planı ve yazı tipi */
+body {
+    background-color: #121620; /* Havalı koyu lacivert/siyah tonu */
+    color: #f1f5f9; /* Gözü yormayan beyaz */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Başlık stili */
+h1 {
+    color: #38bdf8; /* Teknoloji mavisi */
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Açıklama yazısı stili */
+p {
+    color: #94a3b8; /* Hafif gri tonu */
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Gelecekteki butonumuzun şık tasarımı */
+button {
+    background-color: #2563eb; /* Şık SaaS mavisi */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px; /* Köşeleri oval yap */
+    cursor: pointer; /* Üzerine gelince el işareti çıksın */
+    transition: background 0.3s; /* Geçiş efekti */
+}
+
+/* Butonun üzerine gelince rengi biraz koyulaşsın */
+button:hover {
+    background-color: #1d4ed8;
+}
